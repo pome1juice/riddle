@@ -1,0 +1,19 @@
+<html>
+
+<head>
+    <title>Userpage</title>
+</head>
+
+<body>
+    <h1>Welcome, {{ username }} your score is {{score}}</h1>
+    <h3>Below is a logo, in the box enter the name of the company it represents and submit your answer.</h3>
+    <img src={{ img }} alt={{ question }} height="100" width="auto">
+    <p>{{ wrong_answer }}</p>
+
+    <form method="POST">
+        <label for="answer">Message:</label>
+        <input type="text" id="answer" name="answer">
+        <button>Submit answer</button>
+    </form>
+</body>
+</html>

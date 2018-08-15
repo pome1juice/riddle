@@ -1,0 +1,9 @@
+1 shell
+2 apple
+3 macdonalds
+4 volkswagen
+5 batman
+6 mitsubishi
+7 pepsi
+8 wikipedia
+9 twitter
